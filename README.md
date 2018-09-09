@@ -10,6 +10,9 @@ My personal WSB template
     `npm install`
     
 ## Commands:
+
+>The default output directory is `./dist/`.
+
 `npm run build:prod`
 This will automatically build the bundle once. The entry file is `./src/script/index.js`, with production ready code (minified).
 
