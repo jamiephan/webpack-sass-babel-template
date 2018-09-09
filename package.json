@@ -1,0 +1,37 @@
+{
+  "name": "wsb",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build:prod": "webpack --mode production --progress --optimize-minimize",
+    "build:dev": "webpack --mode development --progress --verbose",
+    "watch": "webpack --mode development --progress --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-jsdoc": "^3.8.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "html-webpack-plugin": "^3.2.0",
+    "install": "^0.12.1",
+    "node-sass": "^4.9.3",
+    "npm": "^6.4.1",
+    "prettier": "^1.14.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,9 @@
+@import "text";
+
+html {
+    body {
+        div::before {
+            content: $content;
+        }
+    }
+}
