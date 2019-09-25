@@ -6,7 +6,8 @@
   "scripts": {
     "build:prod": "webpack --mode production --progress",
     "build:dev": "webpack --mode development --progress --verbose",
-    "watch": "webpack --mode development --progress --watch"
+    "watch:dev": "webpack --mode development --progress --verbose --watch",
+    "watch:prod": "webpack --mode production --progress --watch"
   },
   "author": "",
   "license": "ISC",
